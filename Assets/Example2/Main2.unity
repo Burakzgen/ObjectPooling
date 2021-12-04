@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 869451485}
   - component: {fileID: 869451484}
   - component: {fileID: 869451488}
+  - component: {fileID: 869451487}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -425,6 +426,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -9.532, y: 0, z: 0}
+--- !u!114 &869451487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869451483}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02df3e5a2c749345922e9aa6a91944f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubePrefab: {fileID: 5365004252488055664, guid: 6ca5519a1ae21804fb4c4795e4f8ac52, type: 3}
 --- !u!114 &869451488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,4 +453,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 5365004252488055664, guid: 6ca5519a1ae21804fb4c4795e4f8ac52, type: 3}
   cubeFolder: {fileID: 448646813}
-  poolAmountAtStart: 15
+  poolAmountAtStart: 5
